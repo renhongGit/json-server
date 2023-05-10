@@ -9,21 +9,20 @@ const router = jsonServer.router('db.json', {
 })
 const middlewares = jsonServer.defaults()
 
-const cors = require('cors');
-
-server.use(middlewares)
-
-server.use(cors({
+const corsOptions = {
   origin: "http://localhost:8080",
   methods: ['GET', 'PUT', 'POST', 'DELETE'],
   allowedHeaders: ['Content-Type', 'Authorization'],
   credentials: true
-}));
+};
 
-server.options('*', cors());
+server.use(middlewares)
+
+server.use(cors(corsOptions));
+
+server.options('*', cors(corsOptions));
 
 server.use((req, res, next) => {
-  res.header('Access-Control-Allow-Origin', "http://localhost:8080");
   res.header('Access-Control-Allow-Methods', 'GET, PUT, POST, DELETE, OPTIONS');
   res.header('Access-Control-Allow-Headers', 'Content-Type, Authorization, Content-Length, X-Requested-With');
   res.header('Access-Control-Allow-Credentials', true);
