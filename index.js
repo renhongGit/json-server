@@ -17,8 +17,10 @@ server.use(cors({
     origin: '*',
     methods: ['GET', 'PUT', 'POST', 'DELETE'],
     allowedHeaders: ['Content-Type', 'Authorization'],
-    exposedHeaders: ['Access-Control-Allow-Origin']
-}));
+    exposedHeaders: ['Access-Control-Allow-Origin', 'Access-Control-Allow-Headers']
+  }));
+
+server.options('*', cors());
 
 server.use('/api', router)
 
