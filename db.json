@@ -1,0 +1,196 @@
+{
+  "Commodity": [
+    {
+      "img": "https://images.unsplash.com/photo-1624372635282-b324bcdd4907?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=928&q=80",
+      "title": "植物性洗衣精",
+      "sort": "清潔洗劑",
+      "unit": "瓶",
+      "origin_price": "500",
+      "price": "450",
+      "description": "自然潔純天然洗衣劑",
+      "content": "採用最優質的純天然成分，不含任何人造化學物質，使您的衣服不僅更清潔，也更健康和安全。我們的洗衣劑能夠溫和地清潔各種衣物，包括嬰兒服、敏感皮膚的人群、與普通洗衣劑不同的是，它不會削弱織物的纖維，也不會使顏色褪色。",
+      "is_enabled": 1,
+      "page": 1,
+      "id": 2
+    },
+    {
+      "img": "https://plus.unsplash.com/premium_photo-1673384388818-75335e00e611?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=688&q=80",
+      "title": "木質衣架",
+      "sort": "衣物用具",
+      "unit": "支",
+      "origin_price": "100",
+      "price": "80",
+      "description": "天然木材製成的衣架，外觀簡潔、環保又耐用",
+      "content": "木質衣架不僅適合家庭使用，也可以用於商業展示，例如服裝店、鞋店等，以展示商品的美感和高端質感。",
+      "is_enabled": 1,
+      "page": 1,
+      "id": 3
+    },
+    {
+      "img": "https://images.pexels.com/photos/5218021/pexels-photo-5218021.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "title": "粉紅洗衣精",
+      "sort": "清潔洗劑",
+      "unit": "瓶",
+      "origin_price": "300",
+      "price": "250",
+      "description": "專為清洗衣物而設的洗衣液",
+      "content": "它的顏色通常是粉紅色的，因此得名。它含有特殊的洗淨劑和柔軟劑，能夠有效地去除衣物上的污垢和汗漬，同時保持衣物的柔軟度和色澤，讓衣物更加舒適和美觀。",
+      "is_enabled": 1,
+      "page": 1,
+      "id": 4
+    },
+    {
+      "img": "https://images.pexels.com/photos/5217912/pexels-photo-5217912.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "title": "強力漂白劑(黃)",
+      "sort": "清潔洗劑",
+      "unit": "瓶",
+      "origin_price": "200",
+      "price": "190",
+      "description": "除衣物上的頑固污漬，對於白色衣物更加有效。",
+      "content": "可以去除衣物上的細菌、霉菌和病毒等有害物質。此外，它還可以在清潔和漂白浴室、廚房和地板等表面上發揮作用。但需要注意的是，強力漂白劑含有強腐蝕性，使用時應該小心，避免與眼睛和皮膚接觸，也不應該和其他清潔劑混合使用。",
+      "is_enabled": 1,
+      "page": 1,
+      "id": 5
+    },
+    {
+      "img": "https://images.pexels.com/photos/5217885/pexels-photo-5217885.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "title": "衣物柔軟精",
+      "sort": "清潔洗劑",
+      "unit": "瓶",
+      "origin_price": "320",
+      "price": "300",
+      "description": "一種能夠讓衣物柔軟、滑順並具有特殊氣息的洗衣劑。",
+      "content": "它含有柔軟劑成分，可以減少衣物摩擦產生的靜電，同時保持衣物的柔軟度和舒適性。此外，衣物柔軟精還能有效地減少衣物皺摺，讓衣物看起來更加整潔，易於熨燙。在洗滌過程中添加衣物柔軟精，不僅可以讓衣物更加舒適、柔軟，還可以讓衣物經久耐用，延長衣物的使用壽命。",
+      "is_enabled": 1,
+      "page": 1,
+      "id": 6
+    },
+    {
+      "img": "https://www.dopo-domani.com/media/catalog/product/cache/f3edff7b46fac7261f379c39236a3403/h/a/hay-soft-coat-hanger-wide-black_1.jpg",
+      "title": "衣架(黑)",
+      "sort": "衣物用具",
+      "unit": "支",
+      "origin_price": "20",
+      "price": "18",
+      "description": "黑色的衣架",
+      "content": "這是一款黑色的衣架",
+      "is_enabled": 1,
+      "page": 2,
+      "id": 7
+    },
+    {
+      "img": "https://images-eu.ssl-images-amazon.com/images/I/31hpeRLCiVL._AC_UL348_SR348,348_.jpg",
+      "title": "金屬衣架",
+      "sort": "衣物用具",
+      "unit": "支",
+      "origin_price": "90",
+      "price": "70",
+      "description": "金屬衣架",
+      "content": "高級的金屬衣架",
+      "is_enabled": 1,
+      "page": 2,
+      "id": 8
+    },
+    {
+      "img": "https://cs-a.ecimg.tw/items/DECI0KA900A3N0G/000001_1562003673.jpg",
+      "title": "洗衣網袋",
+      "sort": "衣物用具",
+      "unit": "包",
+      "origin_price": "399",
+      "price": "280",
+      "description": "整組洗衣網袋",
+      "content": "各種型號的洗衣網袋",
+      "is_enabled": 1,
+      "page": 2,
+      "id": 9
+    },
+    {
+      "img": "https://resource.iyp.tw/static.iyp.tw/40735/products/photooriginal-2012886-LUJPy.jpg",
+      "title": "乾燥劑",
+      "sort": "衣物用具",
+      "unit": "包",
+      "origin_price": "20",
+      "price": "10",
+      "description": "乾燥劑",
+      "content": "與包裝的衣物一同放置，避免發霉",
+      "is_enabled": 1,
+      "page": 2,
+      "id": 10
+    },
+    {
+      "img": "https://shopping.line-scdn.net/0hMVtmA6OuEnlJFARk8e9tLhtJDgghYktuNiwIWz5RUko0JVd8JXRYTW0RTxswIVwudSUIHjgVSRxtIVEsdCZdcW0URUg3cFUnIXRbGm4cCUgxd1J6J3oP/w360",
+      "title": "彩色晾衣夾",
+      "sort": "衣物用具",
+      "unit": "包",
+      "origin_price": "260",
+      "price": "199",
+      "description": "彩色的晾衣夾",
+      "content": "彩色的晾衣夾",
+      "is_enabled": 1,
+      "page": 2,
+      "id": 11
+    },
+    {
+      "img": "https://img.my-best.tw/content_section/choice_component/sub_contents/9988d9f521da7e4c345712df61b358d7.jpg?ixlib=rails-4.3.1&q=70&lossless=0&w=690&fit=max&s=f619180e20d4ae8cf9341c4305ad5b6f",
+      "title": "金屬的晾衣夾",
+      "sort": "衣物用具",
+      "unit": "包",
+      "origin_price": "400",
+      "price": "380",
+      "description": "金屬的晾衣夾",
+      "content": "金屬的晾衣夾",
+      "is_enabled": 1,
+      "page": 2,
+      "id": 12
+    }
+  ],
+  "shopping": [
+    {
+      "quantity": 1,
+      "title": "粉紅洗衣精",
+      "price": "250",
+      "unit": "瓶",
+      "img": "https://images.pexels.com/photos/5218021/pexels-photo-5218021.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "id": 1
+    }
+  ],
+  "userShopping": [
+    {
+      "time": "2023/5/10 下午4:56:35",
+      "pay": "ApplePay",
+      "name": "羅小蹶",
+      "tel": "0987654321",
+      "email": "paofahu@gmail.com",
+      "address": "弓箭手村",
+      "message": "",
+      "money": 250,
+      "shoppingCar": [
+        {
+          "quantity": 1,
+          "title": "粉紅洗衣精",
+          "price": "250",
+          "unit": "瓶",
+          "img": "https://images.pexels.com/photos/5218021/pexels-photo-5218021.jpeg?auto=compress&cs=tinysrgb&w=800",
+          "id": 1
+        }
+      ],
+      "page": 1,
+      "progress": "完成訂單",
+      "id": 1
+    }
+  ],
+  "laundry": [
+    {
+      "name": "羅小蹶",
+      "tel": "12312",
+      "lastfive": "31231",
+      "time": "2023/5/10 下午4:56:58",
+      "progress": "已取件。",
+      "remark": "",
+      "clothing": {},
+      "total": 0,
+      "page": 1,
+      "id": 1
+    }
+  ]
+}

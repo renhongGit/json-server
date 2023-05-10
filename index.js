@@ -1,6 +1,6 @@
 const jsonServer = require('json-server')
 const server = jsonServer.create()
-const router = jsonServer.router('commodity.json', {
+const router = jsonServer.router('db.json', {
   foreignKeySuffix: '_id',
   "/shopping": "shopping",
   "/commodity": "Commodity",
