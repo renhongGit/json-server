@@ -3,7 +3,7 @@ const server = jsonServer.create()
 const router = jsonServer.router('commodity.json', {
     foreignKeySuffix: '_id',
     "/shopping": "shopping",
-    "/Commodity": "Commodity", // 更改此处
+    "/commodity": "Commodity",
     "/userShopping": "userShopping",
     "/laundry": "laundry"
 })
