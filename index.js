@@ -9,17 +9,15 @@ const router = jsonServer.router('commodity.json', {
 })
 const middlewares = jsonServer.defaults()
 
-// 引入 cors 模块
 const cors = require('cors');
 
 server.use(middlewares)
 
-// 在路由之前使用 cors 中间件
 server.use(cors({
     origin: '*',
     methods: ['GET', 'PUT', 'POST', 'DELETE'],
-    allowedHeaders: ['Content-Type', 'Authorization']
-  }));
+    allowedHeaders: ['Content-Type', 'Authorization', 'Access-Control-Allow-Origin']
+}));
 
 server.use(router)
 
