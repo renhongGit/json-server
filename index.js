@@ -17,7 +17,8 @@ server.use(middlewares)
 // 在路由之前使用 cors 中间件
 server.use(cors({
     origin: '*',
-    methods: ['GET', 'PUT', 'POST', 'DELETE']
+    methods: ['GET', 'PUT', 'POST', 'DELETE'],
+    allowedHeaders: ['Content-Type', 'Authorization']
   }));
 
 server.use(router)
