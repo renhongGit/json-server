@@ -1,7 +1,7 @@
 {
     "routes": [
       {
-        "src": "/api/commodity/.*",
+        "src": "/api/db/.*",
         "dest": "/api/index.js"
       }
     ]
