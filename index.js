@@ -11,7 +11,10 @@ const cors = require('cors');
 server.use(middlewares)
 
 // 在路由之前使用 cors 中间件
-server.use(cors());
+server.use(cors({
+    origin: '*',
+    methods: ['GET', 'PUT', 'POST', 'DELETE']
+  }));
 
 server.use(router)
 
