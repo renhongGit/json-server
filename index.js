@@ -16,7 +16,8 @@ server.use(middlewares)
 server.use(cors({
     origin: '*',
     methods: ['GET', 'PUT', 'POST', 'DELETE'],
-    allowedHeaders: ['Content-Type', 'Authorization', 'Access-Control-Allow-Origin']
+    allowedHeaders: ['Content-Type', 'Authorization'],
+    exposedHeaders: ['Access-Control-Allow-Origin']
 }));
 
 server.use(router)
