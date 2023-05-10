@@ -9,49 +9,13 @@ const router = jsonServer.router('db.json', {
 })
 const middlewares = jsonServer.defaults()
 
-const cors = require('cors');
-
 server.use(middlewares)
 
-server.use(cors({
-  origin: 'http://localhost:8080',
-  methods: ['GET', 'PUT', 'POST', 'DELETE'],
-  allowedHeaders: ['Content-Type', 'Authorization'],
-  exposedHeaders: ['Access-Control-Allow-Origin', 'Access-Control-Allow-Headers'],
-  credentials: true
+server.use(jsonServer.rewriter({
+  "/api/*": "/$1",
 }));
 
-server.options('*', cors());
-
-server.use((req, res, next) => {
-  res.header('Access-Control-Allow-Origin', 'http://localhost:8080');
-  res.header('Access-Control-Allow-Methods', 'GET, PUT, POST, DELETE, OPTIONS');
-  res.header('Access-Control-Allow-Headers', 'Content-Type, Authorization, Content-Length, X-Requested-With');
-  res.header('Access-Control-Allow-Credentials', true);
-  req.headers.withCredentials = true;  
-  next();
-});
-
-
-const corsOptions = {
-  origin: 'http://localhost:8080',
-  methods: ['GET', 'PUT', 'POST', 'DELETE', 'OPTIONS'],
-  allowedHeaders: ['Content-Type', 'Authorization'],
-  exposedHeaders: ['Access-Control-Allow-Origin', 'Access-Control-Allow-Headers'],
-  credentials: true
-}
-
-
-server.use(cors(corsOptions));
-
-
-server.options('*', cors(corsOptions));
-
-
-server.use((req, res, next) => {
-  res.header('Access-Control-Allow-Credentials', true);
-  next();
-});
+server.use(router)
 
 server.listen(3000, () => {
   console.log('JSON Server is running')
