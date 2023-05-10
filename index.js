@@ -2,11 +2,10 @@ const jsonServer = require('json-server')
 const server = jsonServer.create()
 const router = jsonServer.router('commodity.json', {
     foreignKeySuffix: '_id',
-    // 添加下面这一行代码
     "/shopping": "shopping",
-    "/commodity":"Commodity",
-    "/userShopping":"userShopping",
-    "/laundry":"laundry"
+    "/Commodity": "Commodity", // 更改此处
+    "/userShopping": "userShopping",
+    "/laundry": "laundry"
 })
 const middlewares = jsonServer.defaults()
 
