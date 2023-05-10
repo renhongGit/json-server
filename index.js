@@ -29,7 +29,15 @@ server.use((req, res, next) => {
   next();
 });
 
-server.use('/api', router)
+// 更改路由的基础路径为 /api
+const apiRouter = jsonServer.router('db.json', {
+  foreignKeySuffix: '_id',
+  "/shopping": "shopping",
+  "/commodity": "Commodity",
+  "/userShopping": "userShopping",
+  "/laundry": "laundry"
+})
+server.use('/api', apiRouter)
 
 server.listen(3000, () => {
   console.log('JSON Server is running')
