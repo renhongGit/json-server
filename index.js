@@ -41,6 +41,16 @@ const apiRouter = jsonServer.router('db.json', {
 })
 server.use('/api', apiRouter)
 
+// 設置withCredentials: true
+server.use((req, res, next) => {
+  res.header('Access-Control-Allow-Origin', 'http://localhost:8080');
+  res.header('Access-Control-Allow-Methods', 'GET, PUT, POST, DELETE, OPTIONS');
+  res.header('Access-Control-Allow-Headers', 'Content-Type, Authorization, Content-Length, X-Requested-With');
+  res.header('Access-Control-Allow-Credentials', true);
+  req.headers.withCredentials = true;
+  next();
+});
+
 server.listen(3000, () => {
   console.log('JSON Server is running')
 })
