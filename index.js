@@ -33,7 +33,7 @@ server.use((req, res, next) => {
 // 添加以下程式碼段以將VerceI設置為代理服務器
 const { createProxyMiddleware } = require('http-proxy-middleware');
 const proxy = createProxyMiddleware('/api', {
-  target: 'http://localhost:3000',
+  target: 'https://json-server-7eqn8z735-renhonggit.vercel.app',
   changeOrigin: true,
 });
 
